@@ -497,3 +497,10 @@ h1,h2,h3,h4,.display{letter-spacing:.01em;font-weight:600;text-transform:upperca
   /* 16px stops iOS zooming the page the moment a field takes focus */
   #quiz input,#quiz textarea{font-size:16px}
 }
+
+/* Grayhawk logo (Fritz 2026-09-12). The PNG used to be ~80% transparent padding, so every
+   height above was compensating for empty space and the mark rendered ~15-20px tall.
+   It is now cropped to its content, so one explicit height replaces that cascade. */
+.brand-logo{height:46px !important;max-height:none !important;width:auto !important;max-width:none !important}
+@media(max-width:900px){.brand-logo{height:40px !important}}
+@media(max-width:420px){.brand-logo{height:34px !important}}
