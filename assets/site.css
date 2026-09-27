@@ -505,8 +505,7 @@ h1,h2,h3,h4,.display{letter-spacing:.01em;font-weight:600;text-transform:upperca
 @media(max-width:900px){.brand-logo{height:40px !important}}
 @media(max-width:420px){.brand-logo{height:34px !important}}
 
-/* 2026-09-27: new illustrated hawk lockup (aspect ~3:1). The flat wordmark ran at 46px;
-   the detailed badge needs more height to read. */
-.brand-logo{height:88px !important;max-height:none !important;width:auto !important;max-width:none !important}
-@media(max-width:900px){.brand-logo{height:56px !important}}
-@media(max-width:420px){.brand-logo{height:48px !important}}
+/* 2026-09-27: flat gray-hawk lockup (aspect ~7:1). */
+.brand-logo{height:52px !important;max-height:none !important;width:auto !important;max-width:none !important}
+@media(max-width:900px){.brand-logo{height:42px !important}}
+@media(max-width:420px){.brand-logo{height:34px !important}}
