@@ -513,3 +513,7 @@ h1,h2,h3,h4,.display{letter-spacing:.01em;font-weight:600;text-transform:upperca
 .brand-logo{height:52px !important;max-height:none !important;width:auto !important;max-width:none !important}
 @media(max-width:900px){.brand-logo{height:42px !important}}
 @media(max-width:420px){.brand-logo{height:34px !important}}
+/* Fritz 2026-09-27: the "we may be able to repair it" note in the New System branch. */
+.qfix-note{margin:12px 0 0;padding:11px 13px;border-left:3px solid var(--terra,#c8912e);
+  background:rgba(200,145,46,.08);border-radius:0 9px 9px 0;font-size:13.2px;line-height:1.55;
+  color:var(--slate,#6e7173)}
